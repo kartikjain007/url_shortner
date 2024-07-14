@@ -1,6 +1,20 @@
-# URL Shortener APPLICATION
+### Why node and react
+
+React is highly custmoizable, we can develop componenets independently, it is fast due to its VDOM feature and very light weight.
+
+Node.js is well-suited for making server-side applications. It can handle numerous simultaneous connections efficiently, and also it is ideal for high-traffic applications.
+
+### Why different folder structure
+
+To develop and deploy frontend and backend services independently. Now the backend service can be develop and deployed independently and can be easily integrated using APIs and same applies with frontend.
+
+# URL Shortener Application
 
 A simple URL Shortener Application built with React, Node and Express.js, allowing you to shorten long URLs and redirect using the shortened URLs. This project includes Swagger documentation for easy API testing and integration.
+
+For this project I used randomstring package to generate 7 character long string correspond to long url given by user.
+
+I took reference of github repository by Aryanranderiya - https://github.com/aryanranderiya/URLShortener/blob/master/Backend/api/index.js
 
 ## Table of Contents
 
